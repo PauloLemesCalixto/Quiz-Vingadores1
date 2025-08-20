@@ -10,19 +10,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Tony  Stark",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "Parabéns você acertou "
             },
             {
                 texto: "Bruce Wayne",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "mais sorte da proxima!"
             },
             {
                 texto: "Peter Parker",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "Não foi dessa vez "
             },
             {
                 texto: "Steve Rogers",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "Não foi dessa vez, tente da proxima"
             }
         ]
     },
@@ -31,19 +31,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Canadá",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                afirmacao: "Não deu dessa vez, mas não desiste não!"
             },
             {
                 texto: "Reino Unido",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                afirmacao: "Eita! Não rolou agora, tenta de novo!"
             },
             {
                 texto: "Estados Unidos",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "Você acertou! "
             },
             {
                 texto: "França",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "Dessa vez não deu, tente novamente"
             },
         ]
     },
@@ -52,19 +52,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Stormbreaker",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                afirmacao: "Cada tentativa te deixa mais perto do sucesso!"
             },
             {
                 texto: "Guingnir",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                afirmacao: "Não desanime, você está quase lá."
             },
             {
                 texto: "Mjonir",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "Parabéns você acertou!"
             },
             {
                 texto: "Hofund",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "Persistência é o caminho! Vai dar certo."
             },
         ]
     },
@@ -73,19 +73,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Bruce Banner",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                afirmacao: "Parabéns você acertou!"
             },
             {
                 texto: "Bruce Wayne",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                afirmacao: "Não deu dessa vez, mas não desiste não!"
             },
             {
                 texto: "Barry Allen",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "Cada tentativa te deixa mais perto do sucesso! "
             },
             {
                 texto: "Ben Parker",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "Errar faz parte. Levanta e tenta de novo!"
             },
         ]
     },
@@ -94,19 +94,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Magia",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: "Ops! Essa não foi. Tente novamente!"
             },
             {
                 texto: "Tecnologia",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: "Não foi dessa vez, tente na próxima! "
             },
             {
                 texto: "Espionagem",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: "Parabéns você acertou!"
             },
             {
                 texto: "Força",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: "Resposta incorreta. Bora tentar de novo? "
             },
             
         ]
@@ -116,19 +116,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Iron Man",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: "Detetive distraído! Tenta de novo aí!"
             },
             {
                 texto: "Thor",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: "Essa doeu, hein? Bora pra próxima!"
             },
              {
                 texto: "The Avengers",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: "Parabéns você acertou"
             },
             {
                 texto: "Captain America",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: "Errou rude! Mas calma, ainda dá tempo."
             },
         ]
     },
@@ -137,41 +137,45 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Tesseract",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: "Essa doeu, hein? Bora pra próxima!"
             },
             {
                 texto: "Vibranium",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: "Errou rude! Mas calma, ainda dá tempo. "
             },
              {
                 texto: "Palladium",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: "Parabéns você acertou"
             },
             {
                 texto: "Uridium",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: "Essa passou longe! Tenta outra vez! "
             },
         ]
     },
         {
         enunciado: "Quantas Joias do Infinito existem?",
         alternativas: [
-            {
-                texto: "5",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
-            },
-            {
-                texto: "6",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
-            },
-             {
-                texto: "7",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
-            },
-            {
-                texto: "8",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
-            },
+            [
+    {
+        texto: "5",
+        afirmacao: "Infelizmente, passou a utilizar a IA para fazer todas as suas tarefas e agora se sente dependente da IA para tudo."
+    },
+    {
+        texto: "6",
+        afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que a programou e que muito do que o chat escrevia não refletia o que pensava; por isso, sabe que os textos gerados pela IA devem servir como auxílio e não como resultado final."
+    },
+    {
+        texto: "7",
+        afirmacao: "Infelizmente, passou a utilizar a IA para fazer todas as suas tarefas e agora se sente dependente da IA para tudo."
+    },
+    {
+        texto: "8",
+        afirmacao: "Errou rude! Mas calma, ainda dá tempo."
+    }
+]
+
+           
         ]
     },
         {
@@ -179,42 +183,44 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Thor",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: "Errou rude! Mas calma, ainda dá tempo."
             },
             {
                 texto: "Hulk",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: "Não foi dessa vez! Esse aqui virou um monstro por acidente."
             },
             {
                 texto: "Homem de Ferro",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: "Acertou! Ele depende da armadura e da inteligência — nada de superpoderes naturais aqui."
             },
             {
                 texto: "Capitão América",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: "Quase! Ele foi aprimorado com soro, então é tecnicamente um super-humano "
             },
         ]
     },
         {
         enunciado: "Qual é o metal do escudo do Capitão América?",
-        alternativas: [
-            {
-                texto: "Adamantium",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
-            },
-            {
-                texto: "Vibranium",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
-            },
-            {
-                texto: "Ferro",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
-            },
-            {
-                texto: "Titânio",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
-            },
-        ]
+        alternativas: 
+        [
+    {
+        texto: "Adamantium",
+        afirmacao: "Errou! Esse é o metal das garras do Wolverine."
+    },
+    {
+        texto: "Vibranium",
+        afirmacao: "Acertou! O escudo é feito de Vibranium, um metal raro de Wakanda."
+    },
+    {
+        texto: "Ferro",
+        afirmacao: "Não foi dessa vez! Ferro não resistiria a tantos impactos assim."
+    },
+    {
+        texto: "Titânio",
+        afirmacao: "Quase! Titânio é forte, mas o escudo do Capitão é ainda mais especial."
+    }
+]
+
     },
 ];
 
